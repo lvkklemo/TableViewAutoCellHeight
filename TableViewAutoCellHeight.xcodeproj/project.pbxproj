@@ -31,6 +31,23 @@
 		84E8EA5D2153340E008FFC64 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EA4F2153340E008FFC64 /* photo.jpg */; };
 		84E8EA602153343C008FFC64 /* AutoCellFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA5F2153343C008FFC64 /* AutoCellFirstController.m */; };
 		84E8EA63215334D7008FFC64 /* AutoCellFirstCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA62215334D7008FFC64 /* AutoCellFirstCell.m */; };
+		84E8EA6721536BED008FFC64 /* ScrollViewTextController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA6621536BED008FFC64 /* ScrollViewTextController.m */; };
+		84E8EA6B215382FE008FFC64 /* ScrollViewTextTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA69215382FE008FFC64 /* ScrollViewTextTwoController.m */; };
+		84E8EA6C215382FE008FFC64 /* ScrollViewTextTwoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EA6A215382FE008FFC64 /* ScrollViewTextTwoController.xib */; };
+		84E8EA7221538D16008FFC64 /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA7121538D16008FFC64 /* NSDictionary+NilSafe.m */; };
+		84E8EA7521538E1C008FFC64 /* HWEditNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA7421538E1C008FFC64 /* HWEditNumberView.m */; };
+		84E8EA7821538E63008FFC64 /* HWEditNumberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA7721538E63008FFC64 /* HWEditNumberModel.m */; };
+		84E8EA7B21539012008FFC64 /* UIColor+RCColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA7A21539012008FFC64 /* UIColor+RCColor.m */; };
+		84E8EA922153907D008FFC64 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA802153907D008FFC64 /* MJPropertyType.m */; };
+		84E8EA932153907D008FFC64 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA832153907D008FFC64 /* NSObject+MJKeyValue.m */; };
+		84E8EA942153907D008FFC64 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA842153907D008FFC64 /* MJProperty.m */; };
+		84E8EA952153907D008FFC64 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA862153907D008FFC64 /* NSObject+MJCoding.m */; };
+		84E8EA962153907D008FFC64 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA882153907D008FFC64 /* MJExtensionConst.m */; };
+		84E8EA972153907D008FFC64 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA892153907D008FFC64 /* NSObject+MJProperty.m */; };
+		84E8EA982153907D008FFC64 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA8B2153907D008FFC64 /* NSObject+MJClass.m */; };
+		84E8EA992153907D008FFC64 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA8C2153907D008FFC64 /* NSString+MJExtension.m */; };
+		84E8EA9A2153907D008FFC64 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA8D2153907D008FFC64 /* MJPropertyKey.m */; };
+		84E8EA9B2153907D008FFC64 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA912153907D008FFC64 /* MJFoundation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +117,40 @@
 		84E8EA5F2153343C008FFC64 /* AutoCellFirstController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCellFirstController.m; sourceTree = "<group>"; };
 		84E8EA61215334D7008FFC64 /* AutoCellFirstCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AutoCellFirstCell.h; sourceTree = "<group>"; };
 		84E8EA62215334D7008FFC64 /* AutoCellFirstCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoCellFirstCell.m; sourceTree = "<group>"; };
+		84E8EA6521536BED008FFC64 /* ScrollViewTextController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewTextController.h; sourceTree = "<group>"; };
+		84E8EA6621536BED008FFC64 /* ScrollViewTextController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTextController.m; sourceTree = "<group>"; };
+		84E8EA68215382FE008FFC64 /* ScrollViewTextTwoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewTextTwoController.h; sourceTree = "<group>"; };
+		84E8EA69215382FE008FFC64 /* ScrollViewTextTwoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewTextTwoController.m; sourceTree = "<group>"; };
+		84E8EA6A215382FE008FFC64 /* ScrollViewTextTwoController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewTextTwoController.xib; sourceTree = "<group>"; };
+		84E8EA7021538D16008FFC64 /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
+		84E8EA7121538D16008FFC64 /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		84E8EA7321538E1C008FFC64 /* HWEditNumberView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWEditNumberView.h; sourceTree = "<group>"; };
+		84E8EA7421538E1C008FFC64 /* HWEditNumberView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWEditNumberView.m; sourceTree = "<group>"; };
+		84E8EA7621538E63008FFC64 /* HWEditNumberModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HWEditNumberModel.h; sourceTree = "<group>"; };
+		84E8EA7721538E63008FFC64 /* HWEditNumberModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HWEditNumberModel.m; sourceTree = "<group>"; };
+		84E8EA7921539012008FFC64 /* UIColor+RCColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RCColor.h"; sourceTree = "<group>"; };
+		84E8EA7A21539012008FFC64 /* UIColor+RCColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RCColor.m"; sourceTree = "<group>"; };
+		84E8EA7D2153907D008FFC64 /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		84E8EA7E2153907D008FFC64 /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		84E8EA7F2153907D008FFC64 /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		84E8EA802153907D008FFC64 /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		84E8EA812153907D008FFC64 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		84E8EA822153907D008FFC64 /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		84E8EA832153907D008FFC64 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		84E8EA842153907D008FFC64 /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		84E8EA852153907D008FFC64 /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		84E8EA862153907D008FFC64 /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		84E8EA872153907D008FFC64 /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		84E8EA882153907D008FFC64 /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		84E8EA892153907D008FFC64 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		84E8EA8A2153907D008FFC64 /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		84E8EA8B2153907D008FFC64 /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		84E8EA8C2153907D008FFC64 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		84E8EA8D2153907D008FFC64 /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		84E8EA8E2153907D008FFC64 /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		84E8EA8F2153907D008FFC64 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		84E8EA902153907D008FFC64 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		84E8EA912153907D008FFC64 /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				84E8EA502153340E008FFC64 /* First */,
+				84E8EA6421536745008FFC64 /* Second */,
 				84E8EA312153340E008FFC64 /* Masonry */,
 				84E8EA4E2153340E008FFC64 /* Resource */,
 				84E8E9FC21533227008FFC64 /* AppDelegate.h */,
@@ -231,6 +283,9 @@
 		84E8EA4E2153340E008FFC64 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				84E8EA7C2153907D008FFC64 /* MJExtension */,
+				84E8EA7021538D16008FFC64 /* NSDictionary+NilSafe.h */,
+				84E8EA7121538D16008FFC64 /* NSDictionary+NilSafe.m */,
 				84E8EA4F2153340E008FFC64 /* photo.jpg */,
 			);
 			name = Resource;
@@ -247,6 +302,53 @@
 			);
 			name = First;
 			path = Classes/First;
+			sourceTree = "<group>";
+		};
+		84E8EA6421536745008FFC64 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				84E8EA6521536BED008FFC64 /* ScrollViewTextController.h */,
+				84E8EA6621536BED008FFC64 /* ScrollViewTextController.m */,
+				84E8EA68215382FE008FFC64 /* ScrollViewTextTwoController.h */,
+				84E8EA69215382FE008FFC64 /* ScrollViewTextTwoController.m */,
+				84E8EA6A215382FE008FFC64 /* ScrollViewTextTwoController.xib */,
+				84E8EA7321538E1C008FFC64 /* HWEditNumberView.h */,
+				84E8EA7421538E1C008FFC64 /* HWEditNumberView.m */,
+				84E8EA7621538E63008FFC64 /* HWEditNumberModel.h */,
+				84E8EA7721538E63008FFC64 /* HWEditNumberModel.m */,
+				84E8EA7921539012008FFC64 /* UIColor+RCColor.h */,
+				84E8EA7A21539012008FFC64 /* UIColor+RCColor.m */,
+			);
+			name = Second;
+			path = Classes/Second;
+			sourceTree = "<group>";
+		};
+		84E8EA7C2153907D008FFC64 /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				84E8EA7D2153907D008FFC64 /* MJPropertyKey.h */,
+				84E8EA7E2153907D008FFC64 /* NSObject+MJClass.h */,
+				84E8EA7F2153907D008FFC64 /* NSString+MJExtension.h */,
+				84E8EA802153907D008FFC64 /* MJPropertyType.m */,
+				84E8EA812153907D008FFC64 /* NSObject+MJProperty.h */,
+				84E8EA822153907D008FFC64 /* MJExtensionConst.h */,
+				84E8EA832153907D008FFC64 /* NSObject+MJKeyValue.m */,
+				84E8EA842153907D008FFC64 /* MJProperty.m */,
+				84E8EA852153907D008FFC64 /* MJFoundation.h */,
+				84E8EA862153907D008FFC64 /* NSObject+MJCoding.m */,
+				84E8EA872153907D008FFC64 /* MJExtension.h */,
+				84E8EA882153907D008FFC64 /* MJExtensionConst.m */,
+				84E8EA892153907D008FFC64 /* NSObject+MJProperty.m */,
+				84E8EA8A2153907D008FFC64 /* MJPropertyType.h */,
+				84E8EA8B2153907D008FFC64 /* NSObject+MJClass.m */,
+				84E8EA8C2153907D008FFC64 /* NSString+MJExtension.m */,
+				84E8EA8D2153907D008FFC64 /* MJPropertyKey.m */,
+				84E8EA8E2153907D008FFC64 /* MJProperty.h */,
+				84E8EA8F2153907D008FFC64 /* NSObject+MJKeyValue.h */,
+				84E8EA902153907D008FFC64 /* NSObject+MJCoding.h */,
+				84E8EA912153907D008FFC64 /* MJFoundation.m */,
+			);
+			path = MJExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,6 +456,7 @@
 			files = (
 				84E8EA0C21533228008FFC64 /* LaunchScreen.storyboard in Resources */,
 				84E8EA0921533228008FFC64 /* Assets.xcassets in Resources */,
+				84E8EA6C215382FE008FFC64 /* ScrollViewTextTwoController.xib in Resources */,
 				84E8EA5D2153340E008FFC64 /* photo.jpg in Resources */,
 				84E8EA5C2153340E008FFC64 /* README.md in Resources */,
 				84E8EA512153340E008FFC64 /* LICENSE in Resources */,
@@ -383,20 +486,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E8EA5A2153340E008FFC64 /* MASViewConstraint.m in Sources */,
+				84E8EA982153907D008FFC64 /* NSObject+MJClass.m in Sources */,
 				84E8EA5B2153340E008FFC64 /* MASViewAttribute.m in Sources */,
 				84E8EA0121533227008FFC64 /* ViewController.m in Sources */,
+				84E8EA7821538E63008FFC64 /* HWEditNumberModel.m in Sources */,
+				84E8EA7B21539012008FFC64 /* UIColor+RCColor.m in Sources */,
 				84E8E9FE21533227008FFC64 /* AppDelegate.m in Sources */,
 				84E8EA572153340E008FFC64 /* NSArray+MASAdditions.m in Sources */,
+				84E8EA992153907D008FFC64 /* NSString+MJExtension.m in Sources */,
 				84E8EA532153340E008FFC64 /* ViewController+MASAdditions.m in Sources */,
+				84E8EA9A2153907D008FFC64 /* MJPropertyKey.m in Sources */,
 				84E8EA602153343C008FFC64 /* AutoCellFirstController.m in Sources */,
 				84E8EA542153340E008FFC64 /* MASCompositeConstraint.m in Sources */,
+				84E8EA962153907D008FFC64 /* MJExtensionConst.m in Sources */,
 				84E8EA0F21533229008FFC64 /* main.m in Sources */,
+				84E8EA6B215382FE008FFC64 /* ScrollViewTextTwoController.m in Sources */,
 				84E8EA582153340E008FFC64 /* View+MASAdditions.m in Sources */,
 				84E8EA552153340E008FFC64 /* MASConstraintMaker.m in Sources */,
+				84E8EA7221538D16008FFC64 /* NSDictionary+NilSafe.m in Sources */,
+				84E8EA6721536BED008FFC64 /* ScrollViewTextController.m in Sources */,
+				84E8EA932153907D008FFC64 /* NSObject+MJKeyValue.m in Sources */,
 				84E8EA592153340E008FFC64 /* MASConstraint.m in Sources */,
 				84E8EA522153340E008FFC64 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				84E8EA9B2153907D008FFC64 /* MJFoundation.m in Sources */,
 				84E8EA562153340E008FFC64 /* MASLayoutConstraint.m in Sources */,
+				84E8EA952153907D008FFC64 /* NSObject+MJCoding.m in Sources */,
 				84E8EA0721533227008FFC64 /* TableViewAutoCellHeight.xcdatamodeld in Sources */,
+				84E8EA972153907D008FFC64 /* NSObject+MJProperty.m in Sources */,
+				84E8EA7521538E1C008FFC64 /* HWEditNumberView.m in Sources */,
+				84E8EA922153907D008FFC64 /* MJPropertyType.m in Sources */,
+				84E8EA942153907D008FFC64 /* MJProperty.m in Sources */,
 				84E8EA63215334D7008FFC64 /* AutoCellFirstCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

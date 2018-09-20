@@ -10,13 +10,92 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableViewAutoCellHeight/ViewController.m"
-            timestampString = "559102157.424185"
+            timestampString = "559127214.156245"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "-hqAutoCellDirstDidClick:"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableViewAutoCellHeight/Classes/Second/ScrollViewTextTwoController.m"
+            timestampString = "559127214.156845"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TableViewAutoCellHeight/Classes/Second/ScrollViewTextController.m"
+            timestampString = "559127214.157464"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "-addPhoneNumButtonDidClick"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[ScrollViewTextController addPhoneNumButtonDidClick]"
+                  moduleName = "TableViewAutoCellHeight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lvkk/Desktop/TableViewAutoCellHeight/TableViewAutoCellHeight/Classes/Second/ScrollViewTextController.m"
+                  timestampString = "559125589.317927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "470">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__53-[ScrollViewTextController addPhoneNumButtonDidClick]_block_invoke"
+                  moduleName = "TableViewAutoCellHeight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lvkk/Desktop/TableViewAutoCellHeight/TableViewAutoCellHeight/Classes/Second/ScrollViewTextController.m"
+                  timestampString = "559125589.319958"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.134"
+                  moduleName = "TableViewAutoCellHeight"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lvkk/Desktop/TableViewAutoCellHeight/TableViewAutoCellHeight/Classes/Second/ScrollViewTextController.m"
+                  timestampString = "559125589.322172"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

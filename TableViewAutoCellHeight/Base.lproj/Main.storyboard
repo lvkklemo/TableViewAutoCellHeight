@@ -23,11 +23,35 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="uey-N8-ikw"/>
                                 </constraints>
-                                <state key="normal" title="Masonry版本(点击查看)">
+                                <state key="normal" title="Cell动态高度(点击查看)">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
                                     <action selector="hqAutoCellDirstDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DQK-lm-HnO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyg-c8-WXN">
+                                <rect key="frame" x="20" y="174" width="335" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="10c-uD-0r2"/>
+                                </constraints>
+                                <state key="normal" title="ScrollView约束(Masonry)">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hqScrollViewTextDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rIk-ax-fzm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DUH-lQ-KOc">
+                                <rect key="frame" x="20" y="218" width="335" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="We6-QL-Wbi"/>
+                                </constraints>
+                                <state key="normal" title="ScrollView约束(xib)">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="hqScrollViewXibDidClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ycA-rq-Eg2"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -35,7 +59,13 @@
                         <constraints>
                             <constraint firstItem="vcc-cA-W9m" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3Ys-vE-eLl"/>
                             <constraint firstItem="vcc-cA-W9m" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="7UK-qD-sTN"/>
+                            <constraint firstItem="oyg-c8-WXN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Ikz-FJ-gKT"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vcc-cA-W9m" secondAttribute="trailing" constant="20" id="OfG-et-GUo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oyg-c8-WXN" secondAttribute="trailing" constant="20" id="T63-Cu-U8J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DUH-lQ-KOc" secondAttribute="trailing" constant="20" id="g6p-j7-iRo"/>
+                            <constraint firstItem="DUH-lQ-KOc" firstAttribute="top" secondItem="oyg-c8-WXN" secondAttribute="bottom" constant="20" id="hyv-pu-Rbo"/>
+                            <constraint firstItem="DUH-lQ-KOc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mB1-Am-lCg"/>
+                            <constraint firstItem="oyg-c8-WXN" firstAttribute="top" secondItem="vcc-cA-W9m" secondAttribute="bottom" constant="20" id="qWQ-ao-vrW"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

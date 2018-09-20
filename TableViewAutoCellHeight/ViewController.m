@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "AutoCellFirstController.h"
+#import "ScrollViewTextController.h"
+#import "ScrollViewTextTwoController.h"
 
 @interface ViewController ()
 
@@ -23,6 +25,18 @@
 - (IBAction)hqAutoCellDirstDidClick:(id)sender {
     AutoCellFirstController*vc=[[AutoCellFirstController alloc] init];
     vc.title=@"cell";
+    vc.view.backgroundColor=[UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)hqScrollViewTextDidClick:(id)sender {
+    ScrollViewTextController*vc=[[ScrollViewTextController alloc] init];
+    vc.title=@"scrollView约束";
+    vc.view.backgroundColor=[UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)hqScrollViewXibDidClick:(id)sender {
+    ScrollViewTextTwoController*vc=[[ScrollViewTextTwoController alloc] init];
+    vc.title=@"scrollView约束(xib)";
     vc.view.backgroundColor=[UIColor whiteColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
