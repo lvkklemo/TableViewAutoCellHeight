@@ -94,16 +94,11 @@
         make.left.mas_equalTo(10);
         make.right.mas_equalTo(-10);
         make.bottom.equalTo(self.contentView).with.offset(-10);
-        
     }];
-    
-    
 }
 
 -(void)Actionbutton{
-    
     NSLog(@"点击了内容");
-    
 }
 
 @end
