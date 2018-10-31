@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		843DDF062189A33B00ECD68C /* KScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843DDF042189A33B00ECD68C /* KScrollViewController.m */; };
 		843DDF072189A33B00ECD68C /* KScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843DDF052189A33B00ECD68C /* KScrollViewController.xib */; };
+		843DDF0B2189C00300ECD68C /* ScrollViewThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843DDF092189C00300ECD68C /* ScrollViewThreeController.m */; };
+		843DDF0C2189C00300ECD68C /* ScrollViewThreeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843DDF0A2189C00300ECD68C /* ScrollViewThreeController.xib */; };
 		84E8E9FE21533227008FFC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8E9FD21533227008FFC64 /* AppDelegate.m */; };
 		84E8EA0121533227008FFC64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA0021533227008FFC64 /* ViewController.m */; };
 		84E8EA0421533227008FFC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EA0221533227008FFC64 /* Main.storyboard */; };
@@ -73,6 +75,9 @@
 		843DDF032189A33B00ECD68C /* KScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KScrollViewController.h; sourceTree = "<group>"; };
 		843DDF042189A33B00ECD68C /* KScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KScrollViewController.m; sourceTree = "<group>"; };
 		843DDF052189A33B00ECD68C /* KScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KScrollViewController.xib; sourceTree = "<group>"; };
+		843DDF082189C00300ECD68C /* ScrollViewThreeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScrollViewThreeController.h; sourceTree = "<group>"; };
+		843DDF092189C00300ECD68C /* ScrollViewThreeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScrollViewThreeController.m; sourceTree = "<group>"; };
+		843DDF0A2189C00300ECD68C /* ScrollViewThreeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewThreeController.xib; sourceTree = "<group>"; };
 		84E8E9F921533227008FFC64 /* TableViewAutoCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAutoCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8E9FC21533227008FFC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E8E9FD21533227008FFC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -326,6 +331,9 @@
 				843DDF032189A33B00ECD68C /* KScrollViewController.h */,
 				843DDF042189A33B00ECD68C /* KScrollViewController.m */,
 				843DDF052189A33B00ECD68C /* KScrollViewController.xib */,
+				843DDF082189C00300ECD68C /* ScrollViewThreeController.h */,
+				843DDF092189C00300ECD68C /* ScrollViewThreeController.m */,
+				843DDF0A2189C00300ECD68C /* ScrollViewThreeController.xib */,
 			);
 			name = Second;
 			path = Classes/Second;
@@ -466,6 +474,7 @@
 				84E8EA0921533228008FFC64 /* Assets.xcassets in Resources */,
 				84E8EA6C215382FE008FFC64 /* ScrollViewTextTwoController.xib in Resources */,
 				843DDF072189A33B00ECD68C /* KScrollViewController.xib in Resources */,
+				843DDF0C2189C00300ECD68C /* ScrollViewThreeController.xib in Resources */,
 				84E8EA5D2153340E008FFC64 /* photo.jpg in Resources */,
 				84E8EA5C2153340E008FFC64 /* README.md in Resources */,
 				84E8EA512153340E008FFC64 /* LICENSE in Resources */,
@@ -494,6 +503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843DDF0B2189C00300ECD68C /* ScrollViewThreeController.m in Sources */,
 				84E8EA5A2153340E008FFC64 /* MASViewConstraint.m in Sources */,
 				84E8EA982153907D008FFC64 /* NSObject+MJClass.m in Sources */,
 				84E8EA5B2153340E008FFC64 /* MASViewAttribute.m in Sources */,

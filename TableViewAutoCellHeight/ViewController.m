@@ -11,6 +11,7 @@
 #import "ScrollViewTextController.h"
 #import "ScrollViewTextTwoController.h"
 #import "KScrollViewController.h"
+#import "ScrollViewThreeController.h"
 
 @interface ViewController ()
 
@@ -44,6 +45,12 @@
 - (IBAction)hqScrollView2XibDidClick:(id)sender {
     KScrollViewController*vc=[[KScrollViewController alloc] init];
     vc.title=@"scrollView约束2(xib)";
+    vc.view.backgroundColor=[UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)hqScrollView3DidClick:(id)sender {
+    ScrollViewThreeController*vc=[[ScrollViewThreeController alloc] init];
+    vc.title=@"scrollView约束3(xib)";
     vc.view.backgroundColor=[UIColor whiteColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
