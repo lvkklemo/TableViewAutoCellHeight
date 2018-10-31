@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843DDF062189A33B00ECD68C /* KScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 843DDF042189A33B00ECD68C /* KScrollViewController.m */; };
+		843DDF072189A33B00ECD68C /* KScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 843DDF052189A33B00ECD68C /* KScrollViewController.xib */; };
 		84E8E9FE21533227008FFC64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8E9FD21533227008FFC64 /* AppDelegate.m */; };
 		84E8EA0121533227008FFC64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E8EA0021533227008FFC64 /* ViewController.m */; };
 		84E8EA0421533227008FFC64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E8EA0221533227008FFC64 /* Main.storyboard */; };
@@ -68,6 +70,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		843DDF032189A33B00ECD68C /* KScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KScrollViewController.h; sourceTree = "<group>"; };
+		843DDF042189A33B00ECD68C /* KScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KScrollViewController.m; sourceTree = "<group>"; };
+		843DDF052189A33B00ECD68C /* KScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KScrollViewController.xib; sourceTree = "<group>"; };
 		84E8E9F921533227008FFC64 /* TableViewAutoCellHeight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewAutoCellHeight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E8E9FC21533227008FFC64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E8E9FD21533227008FFC64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -318,6 +323,9 @@
 				84E8EA7721538E63008FFC64 /* HWEditNumberModel.m */,
 				84E8EA7921539012008FFC64 /* UIColor+RCColor.h */,
 				84E8EA7A21539012008FFC64 /* UIColor+RCColor.m */,
+				843DDF032189A33B00ECD68C /* KScrollViewController.h */,
+				843DDF042189A33B00ECD68C /* KScrollViewController.m */,
+				843DDF052189A33B00ECD68C /* KScrollViewController.xib */,
 			);
 			name = Second;
 			path = Classes/Second;
@@ -457,6 +465,7 @@
 				84E8EA0C21533228008FFC64 /* LaunchScreen.storyboard in Resources */,
 				84E8EA0921533228008FFC64 /* Assets.xcassets in Resources */,
 				84E8EA6C215382FE008FFC64 /* ScrollViewTextTwoController.xib in Resources */,
+				843DDF072189A33B00ECD68C /* KScrollViewController.xib in Resources */,
 				84E8EA5D2153340E008FFC64 /* photo.jpg in Resources */,
 				84E8EA5C2153340E008FFC64 /* README.md in Resources */,
 				84E8EA512153340E008FFC64 /* LICENSE in Resources */,
@@ -500,6 +509,7 @@
 				84E8EA542153340E008FFC64 /* MASCompositeConstraint.m in Sources */,
 				84E8EA962153907D008FFC64 /* MJExtensionConst.m in Sources */,
 				84E8EA0F21533229008FFC64 /* main.m in Sources */,
+				843DDF062189A33B00ECD68C /* KScrollViewController.m in Sources */,
 				84E8EA6B215382FE008FFC64 /* ScrollViewTextTwoController.m in Sources */,
 				84E8EA582153340E008FFC64 /* View+MASAdditions.m in Sources */,
 				84E8EA552153340E008FFC64 /* MASConstraintMaker.m in Sources */,
@@ -687,6 +697,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableViewAutoCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -703,6 +714,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = TableViewAutoCellHeight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

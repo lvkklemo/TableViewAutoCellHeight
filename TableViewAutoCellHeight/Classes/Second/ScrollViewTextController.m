@@ -188,14 +188,14 @@
     [self.view addSubview:verticalScrollView];
     [verticalScrollView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.left.mas_equalTo(10);
-        make.bottom.and.right.mas_equalTo(-10.0);
+        make.bottom.right.mas_equalTo(-10.0);
         make.height.mas_equalTo(100);
     }];
     // 设置scrollView的子视图，即过渡视图contentSize，并设置其约束
     UIView *verticalContainerView = [[UIView alloc]init];
     [verticalScrollView addSubview:verticalContainerView];
     [verticalContainerView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.bottom.and.right.equalTo(verticalScrollView).with.insets(UIEdgeInsetsZero);
+        make.top.left.bottom.right.equalTo(verticalScrollView).with.insets(UIEdgeInsetsZero);
         make.width.equalTo(verticalScrollView);
     }];
     //过渡视图添加子视图

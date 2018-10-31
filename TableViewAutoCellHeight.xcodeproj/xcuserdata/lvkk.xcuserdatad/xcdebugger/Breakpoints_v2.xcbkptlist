@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableViewAutoCellHeight/ViewController.m"
-            timestampString = "559127214.156245"
+            timestampString = "562670162.535398"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "-hqAutoCellDirstDidClick:"
             landmarkType = "7">
          </BreakpointContent>
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TableViewAutoCellHeight/Classes/Second/ScrollViewTextController.m"
-            timestampString = "559127214.157464"
+            timestampString = "562675395.947681"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "128"

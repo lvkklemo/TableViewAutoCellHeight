@@ -10,6 +10,7 @@
 #import "AutoCellFirstController.h"
 #import "ScrollViewTextController.h"
 #import "ScrollViewTextTwoController.h"
+#import "KScrollViewController.h"
 
 @interface ViewController ()
 
@@ -37,6 +38,12 @@
 - (IBAction)hqScrollViewXibDidClick:(id)sender {
     ScrollViewTextTwoController*vc=[[ScrollViewTextTwoController alloc] init];
     vc.title=@"scrollView约束(xib)";
+    vc.view.backgroundColor=[UIColor whiteColor];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)hqScrollView2XibDidClick:(id)sender {
+    KScrollViewController*vc=[[KScrollViewController alloc] init];
+    vc.title=@"scrollView约束2(xib)";
     vc.view.backgroundColor=[UIColor whiteColor];
     [self.navigationController pushViewController:vc animated:YES];
 }
